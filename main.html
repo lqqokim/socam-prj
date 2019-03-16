@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
 	<link href="css/style6.css" rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
+	<link rel="stylesheet" href="css/custom.css" type="text/css" media="all" /> <!-- Custom-CSS -->
 	<link rel="stylesheet" href="css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
 	<!-- //css files -->
 
@@ -51,40 +52,15 @@
 		<header>
 			<div class="top-head ml-lg-auto text-center">
 				<div class="row mr-0">
-					<!-- <div class="col-lg-4">
-					</div> -->
-
-					<!--social icons-->
-					<!-- <ul class="col-4 top-right-info">
-						<li>
-							<a href="#">
-								<span class="fa fa-facebook-f"></span>
-							</a>
-						</li>
-						<li class="mx-3">
-							<a href="#">
-								<span class="fa fa-twitter"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-google-plus"></span>
-							</a>
-						</li>
-						<li class="ml-3">
-							<a href="#">
-								<span class="fa fa-pinterest-p"></span>
-							</a>
-						</li>
-					</ul> -->
-						<!--social icons end-->
+					<!--social icons end-->
 					<div class="col-md-3 col-4 sign-btn">
 						<a href="#" data-toggle="modal" data-target="#exampleModalCenter">
 							<i class="fas fa-lock"></i>Login</a>
 					</div>
 					<div class="col-md-3 col-4 sign-btn">
-						<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">
-							<i class="fas fa-user"></i>회원가입</a>
+						<a href="sign_up.html">
+							<i class="fas fa-user"></i>회원가입
+						</a>
 					</div>
 					<div class="search col-md-2 col-4">
 						<div class="mobile-nav-button">
@@ -112,7 +88,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="logo">
 					<h1>
-						<a class="navbar-brand" href="index.html">
+						<a class="navbar-brand" href="main.html">
 							<i class="fab fa-cloudversify"></i> Software Campus</a>
 					</h1>
 				</div>
@@ -126,76 +102,25 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-lg-auto text-center">
-						<!-- <li class="nav-item active dropdown"> -->
-						<li class="nav-item active">
-							<a class="nav-link dropdown-toggle" href="about.html">About
-								<!-- <span class="sr-only">(current)</span> -->
-								<!-- <i class="fas fa-angle-down"></i> -->
-							</a>
-							<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="pricing.html"> 소캠소개</a>
-								<a class="dropdown-item" href="pricing_light.html"> 연혁</a>
-								<a class="dropdown-item" href="pricing.html"> 소캠사람들</a>
-							</div> -->
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
 						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="features.html">
-								커뮤니티
-								<!-- <i class="fas fa-angle-down"></i> -->
-							</a>
-							<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModalCenter1" role="button">스터디 등록</a>
-							</div> -->
+						<li class="nav-item">
+							<a class="nav-link" href="community.html">커뮤니티</a>
 						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-							 aria-haspopup="true" aria-expanded="false">
-								공지사항
-								<!-- <i class="fas fa-angle-down"></i> -->
-							</a>
-							<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="about.html" title="">공지사항</a>
-								<a class="dropdown-item" href="projects.html" title="">캘린더</a>
-							</div> -->
+						<li class="nav-item">
+							<a class="nav-link" href="notice.html">공지사항</a>
 						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="team.html">
-								이벤트
-								<!-- <i class="fas fa-angle-down"></i> -->
-							</a>
-							<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="about.html" title="">이벤트 등록</a>
-							</div> -->
+						<li class="nav-item">
+							<a class="nav-link" href="event.html">이벤트</a>
 						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
-							 aria-haspopup="true" aria-expanded="false">
-								소스 스토어
-								<!-- <i class="fas fa-angle-down"></i> -->
-							</a>
-							<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="pricing.html"> 언어별 대시보드</a>
-								<a class="dropdown-item" href="pricing_light.html"> 소스 다운로드</a>
-							</div> -->
+						<li class="nav-item">
+							<a class="nav-link" href="store.html">소스 스토어</a>
 						</li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="contact.html">
-								마이페이지
-								<!-- <i class="fas fa-angle-down"></i> -->
-							</a>
-							<!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="pricing.html"> 정보수정</a>
-								<a class="dropdown-item" href="pricing_light.html"> 비민번호 수정</a>
-								<a class="dropdown-item" href="pricing_light.html"> 구매예약내역</a>
-							</div> -->
+						<li class="nav-item">
+							<a class="nav-link" href="my_info.html">마이페이지</a>
 						</li>
 					</ul>
-
 				</div>
 			</nav>
 		</header>

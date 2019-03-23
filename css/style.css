@@ -181,7 +181,7 @@ a.nav-link:hover {
 }
 
 .login a {
-    color: #97989a;
+    /* color: #97989a; */
 }
 
 .login label {
@@ -508,6 +508,19 @@ a.nav-link:hover {
 /*-- //team --*/
 
 /*-- brands --*/
+.partner-grids .brand {
+	box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+	border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+.partner-grids .brand:hover {
+	background-color: #57859D;
+}
+
 .partner-grids i.fab {
     font-size: 80px;
     color: #ccc;
@@ -518,7 +531,7 @@ a.nav-link:hover {
 	-o-transition: 0.5s all;
 }
 .partner-grids i.fab:hover {
-    color: #ff4f81;
+    color: #fff;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;

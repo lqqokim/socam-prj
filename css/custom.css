@@ -1,3 +1,13 @@
+/* sign up */
 .signUp {
     width: 500px;
+}
+
+.login .row {
+    margin-bottom: 20px;
+}
+
+/* sign in */
+.btn-wrapper {
+    margin-left: 100px;
 }

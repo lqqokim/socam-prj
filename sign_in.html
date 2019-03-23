@@ -51,7 +51,7 @@
                     <!-- <div class="col-lg-4">
 					</div> -->
                     <div class="col-md-3 col-4 sign-btn">
-                        <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
+                        <a href="sign_in.html">
                             <i class="fas fa-lock"></i>Login</a>
                     </div>
                     <div class="col-md-3 col-4 sign-btn">
@@ -138,16 +138,24 @@
     <section class="login py-5">
         <div class="container py-sm-5">
             <div class="heading pb-4">
-                <h3 class="heading mb-2 text-center"> <span>시작해요 </span>SOCAM! </h3>
+                <h3 class="heading mb-2 text-center"> <span>반갑습니다 </span>SOCAM! </h3>
                 <p class="para mb-5 text-center"></p>
             </div>
             <div class="signUp login px-4 mx-auto mw-100">
                 <!-- <h5 class="text-center mb-4">Register Now</h5> -->
-                <form action="#" method="post">
-                    <div class="form-group">
-                        <label>이름</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="" required="">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 login_social">
+                        <div class="btn btn-primary btn-block" style="background: rgb(60, 90, 154); border-color: rgb(60, 90, 154);"><i
+                                class="icon-facebook"></i> Facebook</div>
                     </div>
+                    <div class="col-md-6 col-sm-6 login_social"><a data-v-18dc81bb="" href="https://accounts.google.com/o/oauth2/auth?access_type=offline&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.login%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.me%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&amp;response_type=code&amp;client_id=1014584522318-1hpscp44eu0cir8npv8a6fm3uh8ivo9c.apps.googleusercontent.com&amp;redirect_uri=http%3A%2F%2Fcodelabs.kr%2Fgoogle%2Fcallback"
+                            class="btn btn-info btn-block" style="background: rgb(220, 78, 65); border-color: rgb(220, 78, 65);"><i
+                                class="icon-google"></i>Google</a></div>
+                </div>
+
+                <form action="#" method="post">
+
                     <div class="form-group">
                         <label>아이디</label>
                         <input type="text" class="form-control" id="validationDefault02" placeholder="" required="">
@@ -157,25 +165,14 @@
                         <label class="mb-2">비밀번호</label>
                         <input type="password" class="form-control" id="password1" placeholder="" required="">
                     </div>
-                    <div class="form-group">
-                        <label>비밀번호 확인</label>
-                        <input type="password" class="form-control" id="password2" placeholder="" required="">
-                    </div>
 
-                    <div class="form-group">
-                        <label>연락처</label>
-                        <input type="text" class="form-control" id="a" placeholder="" required="">
+                    <div class="btn-wrapper">
+                        <button type="submit" class="btn btn-primary submit mb-4">회원가입</button>
+                        <button type="submit" class="btn btn-primary submit mb-4">로그인</button>
                     </div>
-                    <div class="form-group">
-                        <label>이메일 수신</label>
-                        <input type="text" class="form-control" id="c" placeholder="" required="">
-                    </div>
-
-                    <button type="submit" class="btn btn-primary submit mb-4">회원거입</button>
-                    <button type="submit" class="btn btn-primary submit mb-4">로그인</button>
-                    <p class="text-center pb-4">
+                    <!-- <p class="text-center pb-4">
                         <a href="#">By clicking Register, I agree to your terms</a>
-                    </p>
+                    </p> -->
                 </form>
             </div>
         </div>

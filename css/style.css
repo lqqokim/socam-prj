@@ -505,8 +505,6 @@ a.nav-link:hover {
     background: #4c6ef5;
 }
 
-/*-- //team --*/
-
 /*-- brands --*/
 .partner-grids .brand {
 	box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
@@ -516,11 +514,9 @@ a.nav-link:hover {
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
 }
-
 .partner-grids .brand:hover {
 	background-color: #57859D;
 }
-
 .partner-grids i.fab {
     font-size: 80px;
     color: #ccc;

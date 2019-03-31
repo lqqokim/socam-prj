@@ -1,4 +1,4 @@
-/* sign up */
+/* 가입 페이지 */
 .signUp {
     width: 500px;
 }
@@ -7,7 +7,24 @@
     margin-bottom: 20px;
 }
 
-/* sign in */
+/* 로그인 페이지 */
 .btn-wrapper {
     margin-left: 100px;
+}
+
+/* 커뮤니티 상세 페이지 */
+.fa-star {
+    margin-bottom: 0px;
+}
+
+.card.level .card-body{
+    padding: 12px
+}
+
+.detail .row .desc{
+    margin-top: 0px !important;
+}
+
+.detail .top {
+    margin-bottom: 50px;
 }

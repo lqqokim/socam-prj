@@ -62,7 +62,7 @@ img{
 
 a.navbar-brand {
     font-size: 1em;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+    /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);*/
     color: #fff;
 }
 
@@ -71,9 +71,13 @@ a.navbar-brand {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: #fff;
 }
+
+
 .logo i {
     color: #BECBD2;
     text-shadow: none;
@@ -83,12 +87,11 @@ li.nav-item {
     margin: 0 15px;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
-    padding: 0.3em 0em;
     color: #fff;
-    background: transparent;
-    letter-spacing: 1px;
 }
+
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
@@ -96,8 +99,8 @@ li.nav-item {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    background: transparent;
-    color: #fff;
+    /*background: #303044;*/
+    color: #303044;
 }
 
 .dropdown-item {
@@ -129,17 +132,18 @@ li.nav-item.active,li.nav-item:hover {
 	font-weight: bold;
 
 }
-
+/*
 a.nav-link:hover {
-	color: #4c6ef5 !important;
+	color: #E5D4BA !important;
 }
+*/
 
-.dropdown-item:hover,
+/*.dropdown-item:hover,
 .dropdown-item:focus {
-    color: #4c6ef5;
+    color: #BECBD2;
     text-decoration: none;
-    background-color: #f0f0f1;
-}
+    background-color: #EEEEEE;
+}*/
 
 /*-- //header --*/
 .top-head {
@@ -274,9 +278,9 @@ a.nav-link:hover {
     line-height: 42px;
 }
 .read a {  /*프로젝트 보러가기*/
-    background: #fff;
-    color: #303044;
-    padding: 12px 60px 12px 30px;
+    background: rgba(1,1,1,.3);
+    color: #fff;
+    padding: 12px 100px 12px 30px;
     display: inline-block;
     letter-spacing: 1px;
     border-radius: 35px;
@@ -290,12 +294,12 @@ a.nav-link:hover {
     position: absolute;
     right: 1px;
     top: 1px;
-    color: #4c6ef5;
+    color: #EEEEEE;
     border: none;
     outline: none;
     text-align: center;
     text-decoration: none;
-    background: #fff;
+    background: #57859D;
     border-radius: 50%;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -307,6 +311,11 @@ a.nav-link:hover {
     height: 46px;
     line-height: 35px;
     cursor: pointer;
+}
+
+.read .btn:hover {
+	color:#E5D4BA;
+	background: #303044;
 }
 
 /*-- // welcome --*/
@@ -674,7 +683,7 @@ button.btn.btn-primary.play {
 	outline: none;
 	cursor: pointer;
 	color: #fff;
-	background-color: #ff4f81;
+	background-color: ;
 	border: none;
 }
 .bnr-button span {
@@ -871,7 +880,6 @@ footer :-moz-placeholder { /* Firefox 18- */
 }
 
 .cpy-right {
-	background: #587aff;
 	background: #303044;
 	padding: 1.2em 1vw;
 }
@@ -885,7 +893,7 @@ footer-top p {
 .footerv2-w3ls ul.social-iconsv2 li {
 	display: inline-block;
 	margin-right: 6px;
-    background: #587aff;
+    background: rgba(238,238,238,.3);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1532,13 +1540,19 @@ text-align:center;
 	}
 	.navbar-toggler {
 		font-size: 1.25rem;
-		background-color: #4c6ef5;
+		background-color: #303044;
 		border-radius: 0;
 	}
+
+	.navbar-toggler:hover {
+		color: #E5D4BA;
+	}
+
 	.navbar-nav {
-		background: #111;
+		background: #EEEEEE;
 		padding: 1em 0;
 	}
+
 	li.nav-item {
 		display: inline-block;
 		width: 22%;

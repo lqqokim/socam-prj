@@ -75,7 +75,7 @@ a.navbar-brand {
     color: #fff;
 }
 .logo i {
-    color: #4c6ef5;
+    color: #BECBD2;
     text-shadow: none;
 }
 
@@ -181,7 +181,7 @@ a.nav-link:hover {
 }
 
 .login a {
-    /* color: #97989a; */
+    color: #97989a;
 }
 
 .login label {
@@ -273,9 +273,9 @@ a.nav-link:hover {
     letter-spacing: 2px;
     line-height: 42px;
 }
-.read a {
-    background: #4c6ef5;
-    color: #fff;
+.read a {  /*프로젝트 보러가기*/
+    background: #fff;
+    color: #303044;
     padding: 12px 60px 12px 30px;
     display: inline-block;
     letter-spacing: 1px;
@@ -331,7 +331,7 @@ a.nav-link:hover {
     width: 60px;
     height: 60px;
     line-height: 60px;
-     background: #4c6ef5;
+     background: #57859D;
 	 color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -343,7 +343,8 @@ a.nav-link:hover {
 	-o-transition: 0.5s all;
 }
 .agileits_w3layouts_about_counter_left span:hover {
-    background: #ff4f81;
+	background: #303044;
+	color: #E5D4BA;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -370,7 +371,7 @@ a.nav-link:hover {
 .counterinfo {
     float: right;
 }
-.welcome_bottom_right h3 {
+.welcome_bottom_right h3 { /*함께 공부하고 ~~*/
     font-size: 30px;
     text-transform: uppercase;
     color: #fff;
@@ -505,21 +506,28 @@ a.nav-link:hover {
     background: #4c6ef5;
 }
 
+/*-- //team --*/
+
 /*-- brands --*/
 .partner-grids .brand {
-	box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+	box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
+
+   background-color: #EEEEEE
 }
+
 .partner-grids .brand:hover {
-	background-color: #57859D;
+	background-color: #303044;
 }
+
+
 .partner-grids i.fab {
-    font-size: 80px;
-    color: #ccc;
+	font-size: 80px;
+    color: #57859D;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -527,21 +535,15 @@ a.nav-link:hover {
 	-o-transition: 0.5s all;
 }
 .partner-grids i.fab:hover {
-    color: #fff;
+	
+    color: #E5D4BA;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.brand {
-    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
-     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
+
 /*-- //brands --*/
 
 /*-- features --*/
@@ -549,7 +551,7 @@ h3.heading {
     text-transform: uppercase;
      font-size: 45px;
     letter-spacing: 7px;
-    color: #191919;
+    color: #303044; /*모임*/
     font-weight: 600;
 }
 p.para{
@@ -566,12 +568,12 @@ p.para:after {
     bottom: -80%;
 }
 h3.heading span {
-    color: #4c6ef5;
+    color: #303044; /*모집중인*/
 }
 .f1 i,.f2-active i {
     font-size: 20px;
-    background: #4c6ef5;
-    color: #fff;
+    background: #BECBD2;
+    color: #303044;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -581,7 +583,7 @@ h3.heading span {
 .feature-grids h3 {
     font-size: 24px;
     text-transform: capitalize;
-    color: #000;
+    color: #303044;
     letter-spacing: 2px;
 }
 .feature-grids p {
@@ -602,10 +604,10 @@ h3.heading span {
 	-moz-transition: 2s all;
 	-ms-transition: 2s all;
 	-o-transition: 2s all;
-     box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+     box-shadow: 7px 7px 10px 0 rgba(0,0,0, .1);
 }
 .f1:hover,.f2-active{
-    background: #4c6ef5 !important;
+    background: #57859D !important;
 	transition: 2s all;
 	-webkit-transition: 2s all;
 	-moz-transition: 2s all;
@@ -613,8 +615,8 @@ h3.heading span {
 	-o-transition: 2s all;
 }
 .f1:hover.f1 i,.f2-active i {
-    background: #ff4f81;
-    color: #fff;
+    background: #303044;
+    color: #E5D4BA;
 }
 .f1:hover.f1 p,.f2-active p {
     color: #fff;
@@ -640,7 +642,7 @@ h3.heading span {
 section.bottom-last h4.title {
     font-size: 1.8em;
 	letter-spacing: 2px;
-    color: #fff;
+    color: #EEEEEE;
     text-shadow: 2px 2px 2px rgba(29, 28, 28, 0.15);
 }
 
@@ -704,21 +706,21 @@ h5#exampleModalLabel {
 /*-- footer --*/
 
 .footer {
-	background: #4c6ef5;
+	background: #57859D;
 }
 
 /* footer grids */
 
 .footerv3-top h3 {
 	font-size: 1.3em;
-	color: #fff;
+	color: #EEEEEE;
 	text-transform: uppercase;
 	margin-bottom: 1.5em;
 }
 
-.fv3-contact span {
-    color: #4c6ef5;
-    background: #fff;
+.fv3-contact span { /*contact us*/
+    color: #EEEEEE;
+    background: rgba(238,238,238,.3);
 	width: 36px;
 	height: 36px;
 	line-height: 36px;
@@ -730,7 +732,7 @@ h5#exampleModalLabel {
 .footer-top input[type="email"] {
     outline: none;
     padding: 13px 20px;
-    color: #fff;
+    color: #EEEEEE;
     font-size: 14px;
     width: 85%;
     border: none;
@@ -745,7 +747,7 @@ h5#exampleModalLabel {
 
 .footer-top form {
     width: 90%;
-	background: #587aff;
+	background: rgba(238,238,238,.3);
     margin-top: 20px;
     border-radius: 35px;
     -webkit-border-radius: 35px;
@@ -754,12 +756,12 @@ h5#exampleModalLabel {
     -o-border-radius: 35px;
 }
 button.btn1 {
-    color: #4c6ef5;
+    color: #57859D;
     border: none;
     outline: none;
     text-align: center;
     text-decoration: none;
-    background: #fff;
+    background: #E5D4BA;
     border-radius: 50%;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -771,6 +773,14 @@ button.btn1 {
     height: 46px;
      cursor: pointer;
 }
+
+button.btn1:hover {
+	color: #E5D4BA;
+	background: #303044;
+
+}
+
+
 .footv3-left h4 a {
 	font-size: 1.3em;
 	letter-spacing: 0.5px;
@@ -796,9 +806,6 @@ h4.footer-title {
 	color: #eee;
 }
 
-.footer p a:hover {
-	color: #ED4F2E;
-}
 
 
 .fv3-contact p {
@@ -856,16 +863,16 @@ footer :-moz-placeholder { /* Firefox 18- */
 }
 
 .cpy-right p a {
-	color: #4c6ef5;
+	color: #57859D;
 	font-size: 1em;
 }
 .cpy-right p a:hover{
-	color: #fff;
+	color: #E5D4BA;
 }
 
 .cpy-right {
 	background: #587aff;
-	background: #191d20;
+	background: #303044;
 	padding: 1.2em 1vw;
 }
 
@@ -989,7 +996,7 @@ span.section_1-breadcrumbs, span.section_1-breadcrumbs a {
     padding: 40px 20px;
     margin-right: 10px;
     background: #f8f9fa;
-    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    box-shadow: 7px 7px 10px 0 rgba(0,0,0, .1);
 }
 .first-grid h3 {
     text-transform: uppercase;
@@ -1271,7 +1278,7 @@ ul.list-unstyled li {
 .about-in .card {
     border: none;
     background: none;
-    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    box-shadow: 7px 7px 10px 0 rgba(0,0,0, .1);
     border-radius: 5px;
     -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -1297,7 +1304,7 @@ ul.list-unstyled li {
     padding: 2.5em 2em;
     background: #f8f9fa;
     border-bottom: 4px solid #f8f8fa;
-    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    box-shadow: 7px 7px 10px 0 rgba(0,0,0, .1);
 }
 .about-in.middle-grid-info .card:hover {
     background: #fff;
@@ -1314,7 +1321,7 @@ ul.list-unstyled li {
 
 .about-in.middle-grid-info:hover .card,
 .about-in.middle-grid-info.active .card {
-    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    box-shadow: 7px 7px 10px 0 rgba(0,0,0, .1);
 }
 .middle-grids .card {
     border-radius: 50%;

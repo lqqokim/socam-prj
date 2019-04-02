@@ -40,3 +40,10 @@
 .detail .top {
     margin-bottom: 50px;
 }
+
+.detail button {
+    margin-bottom: 0px !important;
+    right: 15px;
+    bottom: 0;
+    position: absolute;
+}

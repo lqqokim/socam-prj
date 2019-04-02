@@ -1,6 +1,18 @@
 /* 가입 페이지 */
-.signUp {
+.sign-up {
     width: 500px;
+}
+
+.sign-up .facebook {
+    background: rgb(60, 90, 154); 
+    border-color: rgb(60, 90, 154);
+    color: white;
+}
+
+.sign-up .google {
+    background: rgb(220, 78, 65);
+    border-color: rgb(220, 78, 65);
+    color: white !important;
 }
 
 .login .row {

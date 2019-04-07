@@ -1,3 +1,11 @@
+/* 슬라이드 */
+.slide-window,
+.slide-wrapper,
+.slide 
+{
+    height: 100%;
+}
+
 /* 가입 페이지 */
 .sign-up {
     width: 500px;

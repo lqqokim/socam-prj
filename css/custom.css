@@ -24,6 +24,25 @@
     margin-left: 100px;
 }
 
+/* 커뮤니티 페이지 */
+.data .date {
+    display: inline-block;
+}
+
+.data .wait {
+    color:red; 
+    display: inline-block;
+    margin-left: 90px;
+    font-size:14.5px !important;
+}
+
+.data .close {
+    color:blue; 
+    display: inline-block;
+    margin-left: 90px;
+    font-size:14.5px !important;
+}
+
 /* 커뮤니티 상세 페이지 */
 .fa-star {
     margin-bottom: 0px;
@@ -46,4 +65,10 @@
     right: 15px;
     bottom: 0;
     position: absolute;
+}
+
+.detail .apply{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }

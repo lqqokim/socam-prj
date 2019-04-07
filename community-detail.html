@@ -154,7 +154,11 @@
 
                         <p> 텐서플로우에 대해 깊이 있게 공부하고 실습을 통해 실제 내것으로 만들어보고 싶으신 분들의 많은 신청바랍니다.</p>
                         
-                        <button type="submit" class="btn btn-primary apply mb-4 ">모임 신청하기</button>
+                        <div class="apply"> 
+                            <a href="#" data-toggle="modal" data-target="#communityApply">모임 신청하기<span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+                        </div>
+                        <!-- <button type="submit" class="btn btn-primary move mb-4 ">모임 목록이동</button>
+                        <button type="submit" class="btn btn-primary apply mb-4 ">모임 신청하기</button> -->
                     </div>
                 </div>
             </div>
@@ -387,6 +391,33 @@
             </div>
         </div>
     </div>
+
+    	<!-- Vertically centered Modal -->
+	<div class="modal fade" id="communityApply" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter"
+    aria-hidden="true">
+       <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title text-capitalize text-center" id="exampleModalLongTitle"><i class="fab fa-cloudversify"></i>
+                       Software Campus</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                   </button>
+               </div>
+               <div class="modal-body">
+                   <!-- <img src="images/bg.jpg" class="img-fluid mb-3" alt="Modal Image" /> -->
+                   <p>
+                       <h5>모임신청이 완료되었습니다.</h4>
+                   </p>
+               </div>
+               <div class="modal-footer">
+                   <!-- <button type="button" class="btn btn-primary">회원가입</button> -->
+                   <button type="button" class="btn btn-primary" data-dismiss="modal">확인</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
     <!--//Login-->
     <!--/Register-->
     <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">

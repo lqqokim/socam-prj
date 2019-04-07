@@ -177,7 +177,8 @@ a.nav-link:hover {
     background: #1e1f1f;
     padding: 0.5em 2em;
     letter-spacing: 1px;
-    border: none;
+	border: none;
+	box-align: center;
 }
 
 .login button.btn.btn-primary.submit:hover {
@@ -194,6 +195,7 @@ a.nav-link:hover {
     font-size: 1em;
     letter-spacing: 1px;
 }
+
 
 /*--//model-forms--*/
 

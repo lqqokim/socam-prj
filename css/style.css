@@ -4,7 +4,14 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+html {
+	width: 100%;
+	height: 100%;
+}
+
 body{
+	width: 100%;
+	height: 100%;
 	padding:0;
 	margin:0;
 	background:#fff;
@@ -685,7 +692,7 @@ button.btn.btn-primary.play {
 	outline: none;
 	cursor: pointer;
 	color: #fff;
-	background-color: ;
+	/* background-color: ; */
 	border: none;
 }
 .bnr-button span {

@@ -80,3 +80,8 @@
     right: 0;
     bottom: 0;
 }
+
+/* 메인페이지 */
+.welcome_bottom_right .read > a{
+    font-weight: bold;
+}

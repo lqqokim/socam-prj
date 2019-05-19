@@ -148,6 +148,7 @@
 	<div class="mypagemargin login mx-auto mw-100">
 		<div class="mypageallmagin">
 			<label><h4>프로필</h4></label>
+			<form id="deleteid" onsubmit="return checkForm(this);">
 			<div class="mypagebox">
 					<ul class="mypageul">
 						<li class="mypageli">등급<strong mypageli class="float-right">Americano</strong></li>
@@ -157,10 +158,11 @@
 					</ul>
 
 					<div class="btn-wrapper">
-							<a href=""><button type="button" class="btn btn-primary submit">정보수정</button></a>
-							<a href=""><button type="button" class="btn btn-primary submit">회원탈퇴</button></a>
+							<a href="my_info_modify.html"><button type="button" class="btn btn-primary submit">정보수정</button></a>
+							<button type="submit" class="btn btn-primary submit">회원탈퇴</button>
 					</div>
 			</div>	
+			</form>
 			<label><h4>스터디 목록</h4></label>
 			<div class="mypagebox">
 				<div class="mypageoverflow">				
@@ -191,7 +193,60 @@
 
 
 
+    <script>
+        function checkForm(event) {
+            if (event.target.value != '') {
+                $('#deleteidModal').modal();
+                return false;
+            }
 
+            return true;
+        }
+
+        // var formEl = document.getElementById("findForm");
+        // formEl.addEventListener('submit', function (event) {
+        //     if (event.target.value != '') {
+        //         $('#findpwModal').modal();
+        //     }
+
+        //     event.preventDefault();
+        // });
+    </script>
+
+    <!-- Vertically centered Modal -->
+    <div class="modal fade" id="deleteidModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-capitalize text-center" id="exampleModalLongTitle"><i class="fab fa-cloudversify"></i>
+                        Software Campus</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- <img src="images/bg.jpg" class="img-fluid mb-3" alt="Modal Image" /> -->
+                    <p>
+						<h5>회원탈퇴 하시겠습니까?</h5>
+						<h5>소캠에는 많은 정보들이 있어요.</h5>
+                    </p>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">로그인</button>
+                </div> -->
+
+                <div class="modal-footer">
+                    <a href="deleteid.html">
+                        <button type="button" class="btn btn-primary submit mb-4" style="margin-bottom:0 !important;">탈퇴하기</button>
+                    </a>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Vertically centered Modal -->
 
 	
 

@@ -181,7 +181,8 @@ a.nav-link:hover {
 }
 
 .login button.btn.btn-primary.submit {
-    background: #1e1f1f;
+	background: #BECBD2;
+	color: #303044;
     padding: 0.5em 2em;
     letter-spacing: 1px;
 	border: none;
@@ -189,7 +190,9 @@ a.nav-link:hover {
 }
 
 .login button.btn.btn-primary.submit:hover {
-    background: #303044;
+	background: #303044;
+	color: #E5D4BA;
+	font-size: 20px!important;
 }
 
 .login a {
@@ -198,7 +201,7 @@ a.nav-link:hover {
 
 .login label {
     font-weight: 400;
-    color: #5a5757;
+    color: #303044;
     font-size: 1em;
     letter-spacing: 1px;
 }
@@ -579,7 +582,7 @@ p.para{
 p.para:after {
     position: absolute;
     content: '';
-    background: #bbb;
+    background: #BECBD2;
     width: 10%;
     height: 3px;
     left: 45%;
